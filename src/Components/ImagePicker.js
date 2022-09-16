@@ -19,7 +19,7 @@ function ImagePicker() {
       <div>
         <h1>🦊 FoxFindr 🦊</h1>
         <div className="buttons">
-            <button onClick={handleNewFoxClick}>New 🦊 Please</button>
+            <button onClick={handleNewFoxClick}>New 🦊 Pleas!</button>
             <button onClick={addLike}>Likes: {likes}</button>
         </div>
         <img src={image} alt="Random Fox" />

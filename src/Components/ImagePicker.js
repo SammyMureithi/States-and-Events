@@ -8,7 +8,7 @@ function ImagePicker() {
       fetch("https://randomfox.ca/floof/")
         .then((response) => response.json())
         .then(({ image }) => {
-          console.log(image)
+          setImage( image );
         })
     }
     function addLike(){
